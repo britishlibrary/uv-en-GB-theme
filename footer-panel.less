@@ -2,12 +2,25 @@
 
 #app {
     .footerPanel{
+        .search{
+            border: 1px solid @gray-dark;
+        }
         .searchPager {
+            border: 1px solid @gray-dark;
             .controls{
+                margin-top: 0px;
                 .searchResultsInfo{
                     width: 340px;
                 }
             }
+        }
+        .searchResults {
+            .searchResultPlacemarker {
+                background: url('@{theme-img-path}placemarker_down.png');
+            }
+        }
+        .searchOptions{
+            margin: 3px 0 0 0;
         }
     }
 }
