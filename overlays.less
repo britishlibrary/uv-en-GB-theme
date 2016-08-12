@@ -21,9 +21,30 @@
         }
 
         &.share{
+
             .middle{
                 .content{
                     padding-top: 0px;
+
+                    .tabs{
+
+                        .tab{
+                            font-size: @headings-size-large;
+                            line-height: 30px;
+                            height: 30px;
+                            width: 80px;
+
+                            &:hover {
+                                 height: 31px;
+                                 line-height: 31px;
+                            }
+
+                            &.on{
+                                 height: 30px;
+                                 line-height: 30px;
+                            }
+                        }
+                    }
                 }
             }
         }
